@@ -241,3 +241,31 @@ def run_clustering(mode="city-year", include_location=False, n_clusters=3, max_k
     
     # Export the clustering results to a CSV file
     export_results(df_prepared, labels, mode)
+    return df_prepared, labels
+
+
+
+def visualize_geographic_clusters(df_prepared, labels):
+    """
+    Visualizes the clusters on a geographic scatter plot using the actual
+    Latitude and Longitude from the data.
+    
+    Parameters:
+        df_prepared (pd.DataFrame): The DataFrame containing at least the 
+                                    'Latitude' and 'Longitude' columns.
+        labels (np.ndarray): The cluster labels for each row.
+    """
+    # Ensure that Latitude and Longitude columns exist in the DataFrame.
+    if not {"Latitude", "Longitude"}.issubset(df_prepared.columns):
+        raise ValueError("DataFrame must contain 'Latitude' and 'Longitude' columns for geographic visualization.")
+    
+    plt.figure()
+    plt.scatter(df_prepared['Longitude'], df_prepared['Latitude'], 
+                c=labels, cmap='viridis', s=50)
+    plt.title("Geographic Clusters Visualization")
+    plt.xlabel("Longitude")
+    plt.ylabel("Latitude")
+    plt.colorbar(label="Cluster")
+    plt.savefig("geographic_clusters.png")
+    plt.close()
+    print("Geographic clusters visualization saved as 'geographic_clusters.png'.")
