@@ -10,7 +10,7 @@ from sklearn.metrics import silhouette_score
 
 def load_data(file_path):
     """
-    Loads the dataset from a CSV file using pandas.
+    Loads the dataset from a CSV file.
     
     Parameters:
         file_path (str): The path to the CSV file.
