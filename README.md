@@ -23,8 +23,6 @@ The detailed report of this project can be found [here](README.md).
 
 ```
 .
-├── Project_3
-│   └── data
 ├── README.md
 ├── Report.md   
 │   
@@ -35,17 +33,6 @@ The detailed report of this project can be found [here](README.md).
 │   ├── Tests.ipynb
 │   ├── g_functions.py
 │   └── nfunctions.py
-├── data-project3
-│   ├── Clean_data
-│   │   ├── averaged_output.csv
-│   │   ├── city_year_clusters.csv
-│   │   ├── clean_data.csv
-│   │   ├── cleaned_temperature_pollution_data.csv
-│   │   └── new_green.csv
-│   └── Original_data
-│       ├── GlobalLandTemperaturesByCity.csv.zip
-│       ├── greenhouse_gas_inventory_data_data(1).csv
-│       └── pollution_us_2000_2016.csv.zip
 ├── figures
     ├── clusters.png
     ├── correlation_heatmap.png
