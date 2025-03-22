@@ -1,7 +1,7 @@
 # Temperature Forecasting for Different Cities Worldwide
 
 ## Authors
-- Nicola
+- Nicola Aladrah
 - Bello
 - Gustavo Paredes Torres
 
