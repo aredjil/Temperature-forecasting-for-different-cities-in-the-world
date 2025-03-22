@@ -10,14 +10,14 @@ This project aims to analyze temperature trends in different cities worldwide, p
 
 ## Objectives
 - **Data Cleaning:** Preprocessing raw temperature and pollution data.
-- **Clustering Analysis:** Applying K-means or DBSCAN to identify city clusters based on temperature patterns.
+- **Clustering Analysis:** Applying K-means to identify city clusters based on temperature/pollution patterns.
 - **Correlation Analysis:** Measuring the relationship between temperature and pollution.
 - **Time Series Forecasting:** Predicting temperature changes using ARIMA models.
 - **Visualization:** Generating informative figures to support the analysis.
 
 ## Report
 
-The detailed report of this project can be found [here](README.md).
+The detailed report of this project can be found [here](Report.md).
 
 ## Project Structure
 
@@ -29,7 +29,7 @@ The detailed report of this project can be found [here](README.md).
 ├── codes
 │   ├── Cleaning_data_Task1.ipynb
 │   ├── Correlation_analysis.ipynb
-│   ├── Project3_nicola.ipynb
+│   ├── K_Means_analysis.ipynb
 │   ├── Tests.ipynb
 │   ├── g_functions.py
 │   └── nfunctions.py
