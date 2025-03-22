@@ -2,7 +2,7 @@
 
 ## Authors
 - Nicola Aladrah
-- Bello
+- Abou Bakr Essadiq
 - Gustavo Paredes Torres
 
 ## Project Overview
