@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 *.DS_Store
-*data-project3.zip
 __pycache__/
 *.py[cod]
 *$py.class
