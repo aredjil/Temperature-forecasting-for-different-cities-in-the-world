@@ -41,11 +41,11 @@ To prepare these datasets for analysis, the following cleaning and integration s
         | `Longitude` |	Geographic longitude of the city |
         | `Avg_CO2_natural_pross` |	Average CO₂ emissions from natural processes |
 
-**The code of the data cleaning of Task 1 is [here](Cleaning_data_Task1.ipynb)**
+**The code of the data cleaning of Task 1 is [here](codes/Cleaning_data_Task1.ipynb)**
 
 ### How We Applied Cluster Analysis on The New Data
 
-**The code of the Cluster Analysis is [here](Project3_nicola.ipynb)**
+**The code of the Cluster Analysis is [here](codes/Project3_nicola.ipynb)**
 
 We have studied 248 cities. The dataset includes measurements of several environmental indicators such as Average Temperature, NO₂ Mean, SO₂ Mean, CO Mean, and Avg_CO₂_natural_pross. The **goal** of this analysis is to explore natural groupings within the data using the K-means clustering algorithm. Additionally, geographic coordinates (Latitude and Longitude) are incorporated to provide insights into the spatial distribution of the clusters.
 
@@ -99,7 +99,7 @@ And in terms of latitude and longtitude,
 
 ## Task 2: Correlation Analysis - Gustavo Paredes Torres
 
-**The code of correlation analysis Task 2 is [here](Correlation_analysis.ipynb).** 
+**The code of correlation analysis Task 2 is [here](codes/Correlation_analysis.ipynb).** 
 
 We measure correlations between different variables in the clean dataset called **clean_data.csv**.
 The correlation tells us how strongly two variables are related (positive, negative, or no correlation).
