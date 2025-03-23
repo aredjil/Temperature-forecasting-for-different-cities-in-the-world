@@ -101,7 +101,7 @@ And in terms of latitude and longtitude,
 
 **The code of correlation analysis Task 2 is [here](codes/Correlation_analysis.ipynb).** 
 
-We measure correlations between different variables in the clean dataset called **clean_data.csv**.
+We measure correlations between different variables in the clean dataset.
 The correlation tells us how strongly two variables are related (positive, negative, or no correlation).
 
 ### 1 Correlation between Temperature and Latitude
