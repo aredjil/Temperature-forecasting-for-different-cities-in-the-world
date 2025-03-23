@@ -24,23 +24,34 @@ The detailed report of this project can be found [here](Report.md).
 ```
 .
 ├── README.md
-├── Report.md   
-│   
+├── Report.md
+│
 ├── codes
 │   ├── Cleaning_data_Task1.ipynb
 │   ├── Correlation_analysis.ipynb
 │   ├── K_Means_analysis.ipynb
+│   ├── Project3_nicola.ipynb
+│   ├── Project3_part3.ipynb
 │   ├── Tests.ipynb
+│   ├── __pycache__
+│   │   └── g_functions.cpython-310.pyc
 │   ├── g_functions.py
 │   └── nfunctions.py
+│
 ├── figures
-    ├── clusters.png
-    ├── correlation_heatmap.png
-    ├── correlation_pollution_methods.png
-    ├── correlation_pollution_methods_per_3year.png
-    ├── elbow_method.png
-    ├── geographic_clusters.png
-    ├── pollution_vs_temperature.png
-    ├── silhouette_scores.png
-    └── temperature_vs_latitude.png
+│   ├── clusters.png
+│   ├── correlation_heatmap.png
+│   ├── correlation_pollution_methods.png
+│   ├── correlation_pollution_methods_per_3year.png
+│   ├── elbow_method.png
+│   ├── geographic_clusters.png
+│   ├── pollution_vs_temperature.png
+│   ├── section3_acf.png
+│   ├── section3_pcaf.png
+│   ├── section3_stat_TS.png
+│   ├── section3_time_series.png
+│   ├── section3_time_series_me.png
+│   ├── section3_time_series_ye.png
+│   ├── silhouette_scores.png
+│   └── temperature_vs_latitude.png
 ```
