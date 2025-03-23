@@ -33,8 +33,6 @@ The detailed report of this project can be found [here](Report.md).
 │   ├── Project3_nicola.ipynb
 │   ├── Project3_part3.ipynb
 │   ├── Tests.ipynb
-│   ├── __pycache__
-│   │   └── g_functions.cpython-310.pyc
 │   ├── g_functions.py
 │   └── nfunctions.py
 │
