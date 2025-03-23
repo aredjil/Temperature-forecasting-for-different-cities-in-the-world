@@ -1,6 +1,6 @@
 # On Climate Forecasting
 
-We did the data cleaning all together with equal credit.
+We did the data cleaning all together.
 
 ## Task 1: Cluster Analysis - Nicola Aladrah
 
