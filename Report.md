@@ -387,4 +387,5 @@ The results are summarized in the table below:
 - The ARIMA model successfully predicted temperature variations with reasonable accuracy.
 - The MSE values indicate that the model's performance is consistent across different cities.
 - Future improvements could involve testing additional models, such as LSTM or Prophet, for better forecasting accuracy.
+
 **The code of Task 3 is [here](codes/Project3_part3.ipynb).** 
